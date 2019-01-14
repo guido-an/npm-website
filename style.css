@@ -1,0 +1,252 @@
+
+
+html {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+.clearfix {
+    clear: both;
+  }
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 51px;
+}
+
+ /* NAVBAR */ 
+
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 40px;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  
+  .top-left{
+      float: left;
+      margin-left: 20px;
+  }
+
+  .top-links {
+      display: inline-block;
+      float: right;
+      padding: 0;
+      margin: 0 20px 0 0;
+  }
+
+  .top-links li{
+      display: inline-block;
+      margin: 0 10px;
+  }
+
+   /* HEADER */ 
+
+header {
+      background-image: url('https://static.npmjs.com/images/hero-cityscape.svg');
+      position: center right;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+  }
+
+#logo {
+    width: 140px;
+    float: left;
+}
+
+#upper-section {
+    padding: 20px;
+} 
+    
+
+form {
+    margin: 0 auto;
+    width: 65%;
+    height: 20px
+}
+
+  header input {
+    height: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 101, 136); 
+    padding: 10px;
+  }
+
+  header p {
+      float: right;
+      color: white;
+      position: relative;
+      bottom: 30px;
+      padding: 5px;
+  }
+
+  #login-img {
+    position: relative;
+    bottom: 26px;
+  }
+
+  header img {
+      float: right;
+      width: 50px;
+  }
+
+   /* HERO */ 
+
+  #hero {
+      width: 500px;
+      margin: 0 auto;
+      color: white;
+      position: relative;
+      right: 200px;
+      top: 40px;
+  }
+
+  #hero a {
+      background-color: rgb(240, 146, 51);
+      text-decoration: none;
+      color: white;
+      border-radius: 35px;
+      padding: 10px 30px;
+
+  }
+
+  #hero p {
+      font-size: 20px;
+      line-height: 30px;
+  }
+
+
+  /* COLLABORATION */ 
+  
+  #collaboration {
+      background-color: rgb(39, 53, 71) ;
+      color: white;
+      height: 600px;
+  }
+
+  #collaboration img {
+      width: 40%;
+      float: left;
+      margin: 60px 0 0 60px;
+      position: relative;
+      top: 10px;
+      left: 60px;
+  }
+
+  #collaboration-right {
+     float: right;
+     margin: 60px 80px 0 0;
+  }
+
+  #collaboration ul {
+      margin-bottom: 40px;
+      position: relative;
+      right: 10px;
+  }
+
+  #collaboration ul li {
+      padding-bottom: 15px;
+      font-size: 16px;
+  }
+
+  #collaboration a {
+      background-color: rgb(203, 56, 55);
+      text-decoration: none;
+      color: white;
+      border-radius: 35px;
+      padding: 10px 30px;
+      margin-bottom: 40px !important;
+  }
+
+  #collaboration p {
+      margin-top: 20px;
+  }
+
+  /* NPM */
+
+  #npm {
+    height: 500px;
+    background-image: url("https://static.npmjs.com/images/npm-is-BOXES.svg");
+    background-size: cover;
+    position: bottom right;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    position: relative;
+    color: white;
+  }
+
+  #npm p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    width: 80%;
+  }
+
+  #npm div {
+      position: absolute;
+      top: 60px;
+      left: 100px;
+      width: 40%;
+  }
+
+  #npm a {
+      background-color: rgb(49, 68, 88);
+      border-radius: 35px;
+      padding: 10px 30px;
+      text-decoration: none;
+      color: white;
+  }
+
+  /* MAKE */
+
+  #make {
+      text-align: center;
+      margin-top: 60px;
+      height: 500px;
+      padding-bottom: 60px;
+  }
+
+#make h2 {
+    font-size: 36px;
+    font-weight: 200;
+    color: rgb(83, 88, 98);
+}
+
+#make p {
+    color: rgb(135, 145, 156);
+}
+
+#action-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#action-container p{
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(135, 145, 156);
+}
+
+.action {
+    float: left;
+    width: 33%;
+    margin-top: 60px;
+}
+
+ 
